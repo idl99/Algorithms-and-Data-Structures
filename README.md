@@ -1,7 +1,7 @@
-# Algorithms and Data Structure
+# Algorithms and Data Structures
 By Ihan Lelwala
 
-Implementation of Algorithms and Data Structures, available in Python.
+Implementation of Algorithms and Data Structures, usingPython.
 
 ## Contents
 
