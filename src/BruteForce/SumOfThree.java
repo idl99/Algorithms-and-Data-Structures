@@ -1,10 +1,11 @@
+package BruteForce;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Bruteforce{
+public class SumOfThree {
 
-    static int sum3(int[] data){
-        
+    static int compute(int[] data){
         int count = 0;
         int n = data.length;
         
@@ -17,24 +18,17 @@ public class Bruteforce{
                 }
             }
         }
-
         return count;
-
     }
 
     public static void main(String[] args){
-
         // Test input: 30,-40,-20,-10,40,0,10,5
         // Test output: 4
-
         System.out.print("Enter values separated by commas: ");
         Scanner sc = new Scanner(System.in);
         int[] input = Arrays.stream(sc.nextLine().split(",")).mapToInt(Integer::valueOf).toArray();
 
-        System.out.println(String.format("Output: %d",Bruteforce.sum3(input)));
-
-
-
+        System.out.println(String.format("Output: %d", SumOfThree.compute(input)));
     }
 
 }
