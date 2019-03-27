@@ -9,6 +9,6 @@ Implementation of Algorithms and Data Structures using Java.
 2. Brute Force Algorithm
 3. Selection Sort*
 4. Insertion Sort*
-5. Tower of Hanoi*
+5. Tower of Hanoi
 
 *To be added
